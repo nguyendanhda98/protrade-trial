@@ -10728,9 +10728,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.test {
-  display: flex;
-  flex-direction: column;
+.logo {
+  height: 38px;
+  width: 127.11px;
 }
 
 /*# sourceMappingURL=style.css.map */
