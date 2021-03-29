@@ -1,6 +1,9 @@
 // Custom.scss
 
-// $primary: #131722;
+$primary: #131722;
+$secondary: #2f3240;
+$orange: #f7941d;
+$border-color: $primary;
 
 // Option A: Include all of Bootstrap
 
@@ -10,10 +13,52 @@
 
 // Then add additional custom code here
 
-
-
-.logo{
-    height: 38px;
-    width: 127.11px;
+.logo {
+  height: 38px;
+  width: 127.11px;
 }
 
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 0.8em;
+}
+
+.header {
+  background-color: #131722;
+  .nav-link {
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .active {
+    color: $orange;
+  }
+  .color-orange {
+    color: $orange;
+  }
+  .demo {
+    margin-top: 8px;
+    margin-right: 10px;
+    border: 1px solid #f7941d;
+    color: #fff;
+    padding: 0 10px;
+    line-height: 25px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+  .top {
+  margin-left: 15px;
+    background: #97037f;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 20px;
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.upgrade{
+        border-radius: 3px;
+        background: #f7941d;
+}
+}
