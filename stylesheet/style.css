@@ -1929,7 +1929,7 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #131722;
+  border-color: #dee2e6;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -5225,7 +5225,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #131722;
+  border-bottom: 1px solid #dee2e6;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
 }
@@ -5252,7 +5252,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #131722;
+  border-top: 1px solid #dee2e6;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px);
 }
@@ -6367,7 +6367,7 @@ textarea.form-control-lg {
 }
 
 .border {
-  border: 1px solid #131722 !important;
+  border: 1px solid #dee2e6 !important;
 }
 
 .border-0 {
@@ -6375,7 +6375,7 @@ textarea.form-control-lg {
 }
 
 .border-top {
-  border-top: 1px solid #131722 !important;
+  border-top: 1px solid #dee2e6 !important;
 }
 
 .border-top-0 {
@@ -6383,7 +6383,7 @@ textarea.form-control-lg {
 }
 
 .border-end {
-  border-right: 1px solid #131722 !important;
+  border-right: 1px solid #dee2e6 !important;
 }
 
 .border-end-0 {
@@ -6391,7 +6391,7 @@ textarea.form-control-lg {
 }
 
 .border-bottom {
-  border-bottom: 1px solid #131722 !important;
+  border-bottom: 1px solid #dee2e6 !important;
 }
 
 .border-bottom-0 {
@@ -6399,7 +6399,7 @@ textarea.form-control-lg {
 }
 
 .border-start {
-  border-left: 1px solid #131722 !important;
+  border-left: 1px solid #dee2e6 !important;
 }
 
 .border-start-0 {
@@ -10763,18 +10763,19 @@ body {
   font-weight: 700;
 }
 .header .top {
-  margin-left: 15px;
   background: #97037f;
   color: #fff;
   border-radius: 3px;
-  line-height: 20px;
-  display: inline-block;
-  padding: 0 10px;
   cursor: pointer;
+  line-height: 20px;
 }
 .header .upgrade {
   border-radius: 3px;
   background: #f7941d;
+}
+
+.second {
+  color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
