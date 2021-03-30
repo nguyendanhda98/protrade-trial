@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="vh-100 vw-100 bg-secondary">
-      <header class="w-100 header d-flex justify-content-between ">
+      <header class="w-100 header d-flex justify-content-between">
         <ul class="nav ps-2">
           <li class="nav-item">
             <div class="nav-item logo">
@@ -127,7 +127,7 @@
       </header>
 
       <div class="container-fluid content row h-100 p-0 w-100">
-        <div class="col-5 h-50 border first ">
+        <div class="col-5 h-50 border first p-0">
           <!-- TradingView Widget BEGIN -->
           <div class="tradingview-widget-container">
             <div id="tradingview_94e2b"></div>
@@ -154,7 +154,7 @@
           </div>
           <!-- TradingView Widget END -->
         </div>
-        <div class="col-3 h-50 border second overflow-auto">
+        <div class="col-3 h-50 border second overflow-auto p-0">
           <div class="d-flex flex-row border-bottom justify-content-between">
             <div>VN30F2104</div>
             <div>
@@ -250,7 +250,7 @@
             </table>
           </div>
         </div>
-        <div class="col-4 h-50 border third overflow-auto" >
+        <div class="col-4 h-50 border third overflow-auto p-0">
           <div class="d-flex border-bottom flex-row color-white">
             <div class="col-6 text-center">Lệnh trong ngày</div>
             <div class="col-6 text-center">Lệnh điều kiện</div>
@@ -271,7 +271,7 @@
             </div>
           </div>
         </div>
-        <div class="col-5 h-50 border forth">
+        <div class="col-5 h-50 border forth p-0">
           <!-- TradingView Widget BEGIN -->
           <div class="tradingview-widget-container">
             <div id="tradingview_dc5f2"></div>
@@ -303,7 +303,7 @@
           </div>
           <!-- TradingView Widget END -->
         </div>
-        <div class="col-3 h-50 border fifth">
+        <div class="col-3 h-50 border fifth p-0">
           <table class="table color-white">
             <thead>
               <tr>
@@ -346,9 +346,9 @@
             </tbody>
           </table>
         </div>
-        <div class="col-4 h-50 border sixth color-white">
-          <div class="d-flex justify-content-between">
-            <div class="form-check">
+        <div class="col-4 h-50 border sixth color-white p-0">
+          <div class="row w-100 border h-100 m-0 pt-4">
+            <div class="form-check col-3">
               <input
                 class="form-check-input"
                 type="radio"
@@ -360,7 +360,7 @@
                 Lệnh thường
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check col-3">
               <input
                 class="form-check-input"
                 type="radio"
@@ -371,7 +371,7 @@
                 Lệnh Stop
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check col-3">
               <input
                 class="form-check-input"
                 type="radio"
@@ -382,7 +382,7 @@
                 Lệnh trailing
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check col-3">
               <input
                 class="form-check-input"
                 type="radio"
@@ -393,30 +393,53 @@
                 Lệnh OSO
               </label>
             </div>
-          </div>
-          <div>
-            <div class="row">
-              <label class="col-4" for="">Mã HĐTL:</label>
-              <input class="col-8" type="text" placeholder="Mã" />
-            </div>
-            <div class="row">
-              <label class="col-4" for="">Giá đặt:</label>
-              <input class="col-8" type="text" placeholder="Giá" />
-            </div>
-            <div class="row">
-              <label class="col-4" for="">Khối lượng:</label>
-              <input class="col-8" type="text" placeholder="KL" />
-            </div>
-            <button class="btn_buy" type="button">MUA</button>
-            <button class="btn_sell" type="button">BÁN</button>
-            <input type="checkbox" value="Lưu lệnh" name="luulenh" />
-            <label for="luulenh">Lưu lệnh</label>
-          </div>
 
-          <div class="menu-tab-table w-100 bg-dark">
-            <a>Số lệnh</a>
-            <a>Danh mục</a>
-            <a>Tài sản</a>
+            <div class="row col-12">
+              <label class="col-4" for="">Mã HĐTL:</label>
+              <input class="col-8 input" type="text" placeholder="Mã" />
+            </div>
+
+            <div class="row col-12">
+              <label class="col-4" for="">Giá đặt:</label>
+              <input class="col-8 input" type="text" placeholder="Giá" />
+            </div>
+            <div class="row col-12">
+              <label class="col-4" for="">Khối lượng:</label>
+              <input class="col-8 input" type="text" placeholder="KL" />
+            </div>
+            <div class="offset-2 col-3">
+              <button class="btn_buy" type="button">MUA</button>
+            </div>
+            <div class="col-3">
+              <button class="btn_sell" type="button">BÁN</button>
+            </div>
+
+            <div class="col-3 text-center pt-1">
+              <input
+                class="me-1"
+                type="checkbox"
+                value="Lưu lệnh"
+                name="luulenh"
+              />
+              <label for="luulenh">Lưu lệnh</label>
+            </div>
+            <div class="menu col-12 row w-100 m-0 p-0">
+              <li
+                class="active col-4 d-flex justify-content-center align-items-center"
+              >
+                Sổ lệnh
+              </li>
+              <li
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                Danh mục
+              </li>
+              <li
+                class="col-4 d-flex justify-content-center align-items-center"
+              >
+                Tài sản
+              </li>
+            </div>
           </div>
         </div>
       </div>
